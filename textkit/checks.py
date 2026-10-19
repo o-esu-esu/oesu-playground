@@ -9,7 +9,7 @@ def is_palindrome(word: str) -> bool:
     >>> is_palindrome("level")
     True
     """
-    cleaned = word.replace(" ", "")
+    cleaned = word.replace(" ", "").lower()
     return cleaned == cleaned[::-1]
 
 

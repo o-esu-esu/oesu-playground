@@ -14,7 +14,7 @@ def classes_needed(attended: int, total: int, target: float = DEFAULT_TARGET) ->
     if total <= 0:
         raise ValueError("total must be more than 0")
     extra = 0
-    while (attended + extra) / (total + extra) * 100 <= target:
+    while (attended + extra) / (total + extra) * 100 < target:
         extra += 1
     return extra
 
