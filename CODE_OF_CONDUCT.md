@@ -11,7 +11,7 @@
 ## Not okay
 
 - Insults, harassment or mocking someone for a "basic" question.
-- Sharing someone's private information.
+- Sharing someone's privite information.
 - Spam issues or pull requests.
 
 ## Reporting

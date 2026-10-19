@@ -7,9 +7,7 @@ def word_count(text: str) -> int:
     >>> word_count("open source is fun")
     4
     """
-    if not text:
-        return 0
-    return len(text.split(" "))
+    return len(text.split())
 
 
 def title_case(text: str) -> str:
@@ -18,7 +16,7 @@ def title_case(text: str) -> str:
     >>> title_case("hello world")
     'Hello World'
     """
-    return " ".join(word[:1].upper() + word[1:] for word in text.split(" "))
+    return " ".join(word.capitalize() for word in text.split())
 
 
 def reverse_words(text: str) -> str:

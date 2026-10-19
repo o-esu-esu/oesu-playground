@@ -32,7 +32,7 @@ COMMANDS = {
 def main(argv: list) -> int:
     if len(argv) < 2 or argv[1] not in COMMANDS:
         print("usage: python -m textkit <command> [args]")
-        print("commands: " + ", ".join(COMMANDS))
+        print("comands: " + ", ".join(COMMANDS))
         return 1
     print(COMMANDS[argv[1]](argv[2:]))
     return 0

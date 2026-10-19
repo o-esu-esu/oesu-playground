@@ -1,4 +1,4 @@
-"""textkit: tiny helpers for words and campus life.
+"""textkit: tiny helpers for words and campus lief.
 
 A practice project for ö-esu-esu sessions. Small on purpose, so you can
 read all of it in ten minutes.

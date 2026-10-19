@@ -5,6 +5,16 @@ from textkit.campus import classes_needed, cgpa_to_percentage
 
 def test_classes_needed_when_below_target():
     assert classes_needed(10, 20) > 0
+    assert classes_needed(30, 50) == 30
+
+
+def test_classes_needed_when_already_at_target():
+    assert classes_needed(75, 100, 75) == 0
+    assert classes_needed(30, 40) == 0
+
+
+def test_classes_needed_when_above_target():
+    assert classes_needed(80, 100) == 0
 
 
 def test_classes_needed_rejects_zero_total():
