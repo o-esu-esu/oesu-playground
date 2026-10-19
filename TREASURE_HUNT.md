@@ -1,6 +1,6 @@
 # 🔍 Treasure hunt
 
-Find the answers by exploring this repo on GitHub. You don't need to clone anything.
+Find the answers by exploreing this repo on GitHub. You don't need to clone anything.
 
 **Tricks to try:** press `t` to search for a file, `/` to search the code, and `.` to open the repo in a full editor in your browser.
 
@@ -12,4 +12,4 @@ Find the answers by exploring this repo on GitHub. You don't need to clone anyth
 6. Two functions have **no tests at all**. Which ones? *(hint: read the `TODO`s in `tests/`)*
 7. 🏆 Bonus: run `python -m textkit attendance 30 50`. The docs say the answer is 30. What do you get?
 
-Done? Pick an issue labelled **good first issue** and make your first contribution!
+Done? Pick an isue labelled **good first issue** and make your first contribution!

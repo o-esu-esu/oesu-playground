@@ -1,4 +1,4 @@
-"""Yes/no checks on words."""
+"""Yes/no cheks on words."""
 
 
 def is_palindrome(word: str) -> bool:
@@ -9,7 +9,7 @@ def is_palindrome(word: str) -> bool:
     >>> is_palindrome("level")
     True
     """
-    cleaned = word.replace(" ", "")
+    cleaned = word.replace(" ", "").lower()
     return cleaned == cleaned[::-1]
 
 

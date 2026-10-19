@@ -1,8 +1,8 @@
 # oesu-playground 🐧
 
-A tiny Python project for **ö-esu-esu** sessions. Use it to practise finding your way around a codebase and making your first open-source contribution.
+A tiny Python projetc for **ö-esu-esu** sessions. Use it to practise finding your way around a codebase and making your first open-source contributon.
 
-`textkit` has a few small helpers: counting words, checking palindromes, and working out how many classes you need to reach 75% attendance.
+`textkit` has a few small helpers: counting words, checking palindromes, and working out how many classes you need to reach 75% attendance. conflicts
 
 > 💡 This repo has a few **deliberate mistakes**: typos, missing steps, hidden bugs and missing tests. Finding and fixing them is the point!
 
@@ -27,11 +27,19 @@ You should recieve an awer straight away. See [docs/usage.md](docs/usage.md) for
 
 ## Run the tests
 
+First install the test tools:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Then run the suite:
+
 ```bash
 python -m pytest
 ```
 
-Every pull request runs teh tests automatically, so you will see a ✅ or ❌ on your PR.
+Every pull request runs the tests automatically, so you will see a ✅ or ❌ on your PR.
 
 ## Project layout
 

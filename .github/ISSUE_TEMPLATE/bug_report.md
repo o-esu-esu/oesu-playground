@@ -6,7 +6,7 @@ labels: bug
 ---
 
 **What happened?**
-A short description of the bug.
+A short descripton of the bug.
 
 **Steps to reproduce**
 The exact command you ran:
