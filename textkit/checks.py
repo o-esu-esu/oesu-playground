@@ -9,7 +9,7 @@ def is_palindrome(word: str) -> bool:
     >>> is_palindrome("level")
     True
     """
-    cleaned = word.replace(" ", "")
+    cleaned = word.strip()
     return cleaned == cleaned[::-1]
 
 
@@ -22,6 +22,6 @@ def is_anagram(first: str, second: str) -> bool:
     True
     """
     def letters(s: str) -> list:
-        return sorted(s.replace(" ", "").lower())
+        return sorted(s.strip().lower())
 
     return letters(first) == letters(second)
