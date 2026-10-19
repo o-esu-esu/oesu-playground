@@ -46,4 +46,4 @@ Create a new file `contributors/<your-github-username>.md` with one line about y
 
 ## Stuck?
 
-Ask in the ö-esu-esu WhatsApp group, or comment on your issue. Nobody minds questoins.
+Ask in the ö-esu-esu WhatsApp group, or comment on your issue. Nobody minds questions.
