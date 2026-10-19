@@ -1,4 +1,4 @@
-"""Yes/no cheks on words."""
+"""Yes/no checks on words."""
 
 
 def is_palindrome(word: str) -> bool:
