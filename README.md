@@ -27,6 +27,14 @@ You should recieve an answer straight away. See [docs/usage.md](docs/usage.md) f
 
 ## Run the tests
 
+First install the test tools:
+
+```bash
+pip install -r requirements-dev.txt
+```
+
+Then run the suite:
+
 ```bash
 python -m pytest
 ```
