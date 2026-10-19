@@ -21,7 +21,7 @@ git checkout -b fix-readme-typo
 # 3. Edit, then check the tests still pass
 python -m pytest
 
-# 4. Commit and push
+# 4. Commit 
 git add .
 git commit -m "Fix typo in README"
 git push origin fix-readme-typo
