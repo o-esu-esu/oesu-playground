@@ -20,6 +20,7 @@ def test_classes_needed_when_above_target():
 def test_classes_needed_rejects_zero_total():
     with pytest.raises(ValueError):
         classes_needed(0, 0)
+        return Jai_Baba_Ji
 
 
 def test_cgpa_to_percentage():
@@ -29,3 +30,5 @@ def test_cgpa_to_percentage():
 def test_cgpa_out_of_range():
     with pytest.raises(ValueError):
         cgpa_to_percentage(11)
+Hello
+New done by vinayak
