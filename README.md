@@ -23,7 +23,7 @@ python -m textkit count "open source is fun"
 python -m textkit attendance 30 50
 ```
 
-You should recieve an answer straight away. See [docs/usage.md](docs/usage.md) for every command.
+You should recieve an awer straight away. See [docs/usage.md](docs/usage.md) for every command.
 
 ## Run the tests
 
