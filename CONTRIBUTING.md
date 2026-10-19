@@ -5,7 +5,7 @@ Thanks for being here! This repo exists so you can practise. Mistakes are wellco
 
 
 1. Pick an issue, or find a problem yourself.
-2. Comment **"Can I take this?"** on the issue so two people don't do the same wrok.
+2. Comment **"Can I take this?"** on the issue so two people don't do the same work.
 3. One issue = one small pull request.
 
 ## The workflow
