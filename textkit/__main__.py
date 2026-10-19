@@ -34,7 +34,16 @@ def main(argv: list) -> int:
         print("usage: python -m textkit <command> [args]")
         print("commands: " + ", ".join(COMMANDS))
         return 1
-    print(COMMANDS[argv[1]](argv[2:]))
+
+    try:
+        print(COMMANDS[argv[1]](argv[2:]))
+    except ValueError:
+        if argv[1] == "cgpa":
+            print("error: CGPA must be a number")
+        else:
+            print("error: invalid argument")
+        return 1
+
     return 0
 
 

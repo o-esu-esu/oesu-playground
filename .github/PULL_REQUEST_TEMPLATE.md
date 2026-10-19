@@ -7,5 +7,5 @@ Fixes #<!-- issue number -->
 ## Checklist
 
 - [ ] I commented on the issue before starting
-- [ ] The change is small and does one thing
+- [ ] The change is smal and does one thing
 - [ ] `python -m pytest` passes on my computer
