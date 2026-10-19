@@ -20,7 +20,7 @@ Give it the classes you attended and the total classes so far, separated by a sp
 
 Converts a 10-point CGPA to a percentage using the common × 9.5 rule. If the CGPA is below 0 or above 10, an error has occurred and the tool stops.
 
-## Useing it from Python
+## Using it from Python
 
 ```python
 from textkit import word_count, classes_needed
